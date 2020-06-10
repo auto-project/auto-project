@@ -30,6 +30,7 @@ class Communication(object):
             self.logger.info('Received empty message')
             return
         dtc = message.payload.decode()
+        dtc = dtc.replace('"', '')
         self.logger.info('Received dtc "%s"' % dtc)
         if dtc:
             self.controller.raise_dtc(dtc)
