@@ -24,7 +24,7 @@ Technologies that are used for writing the app are: Spring and Java.
 
 ### Information for clients
 This command will execute application and it will enable you to read information from /tmp/diag_storage.txt file, when you browse this http link:
-http://localhost:8080/sensor/information.
+http://78.83.158.151:8080/sensor/information.
 The endpoint of a Data Controller returns JSON format:
 `[U0001,U0002]`
 
